@@ -1,0 +1,83 @@
+body{
+   background-image: url(cb.jpg);
+   background-repeat:no-repeat;
+   background-size: 100%;
+   background-attachment:fixed;
+   background-size: cover;
+}
+h1{
+    position: relative;
+    top: 230px;
+}
+.box
+{
+
+    border-color: red;
+    border-style: solid;
+    height: 310px;
+    display: flex;
+    margin-top: 250px;
+    width:1050px;
+    margin-left: 250px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    justify-content:space-around;
+}
+.st1
+{
+    background-image: url(nar.jpg);
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    height: 280px;
+    width: 310px;
+}
+.st2
+{
+    background-image: url(will.jpg);
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    height: 280px;
+    width: 310px;
+}
+.st3
+{
+    background-image: url(las.jpg);
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    height: 280px;
+    width: 310px;
+}
+button
+{
+    
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    margin-top: 230px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    background: #ff1414;
+    border: 1px solid #3b00fc;
+    font-size: 11px;
+    height: 22px;
+    padding: 0 6px;
+    text-align: center;
+    font-weight: 500;
+    color: #0F1111;
+    :hover{
+        background: #f70000;
+        border-color: #f20000;
+        box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    }
+    
+    
+}
+b{
+    background-color:red;
+    color:yellow;
+    border-radius: 30px;
+}
